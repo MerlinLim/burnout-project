@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-const page = () => {
+const FormStart = () => {
   const router = useRouter();
   const handleNextClick = () => {
     router.push("/form");
@@ -66,4 +66,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default FormStart;

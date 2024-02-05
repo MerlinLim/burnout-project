@@ -5,7 +5,6 @@ import Link from "next/link";
 import Modal from "@mui/material/Modal";
 import Confirmation from "./Confirmation";
 import MemberInfoCard from "@/components/team-member/MemberInfoCard";
-import { Input } from "@mui/material";
 
 interface myProps {
   memberData: IMemberData;
