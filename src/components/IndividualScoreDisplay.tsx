@@ -38,7 +38,7 @@ const IndividualScoreDisplay = ({
     }
 
     return (
-      <div className="flex ml-[5px] items-center">
+      <div className="flex md:ml-[5px] items-center">
         <div>{label}</div>
         <BsCircleFill color={color} style={{ margin: "10px 0px 10px 10px" }} />
       </div>
@@ -48,7 +48,7 @@ const IndividualScoreDisplay = ({
   return (
     <div className="flex mt-2 mb-10 border-2 rounded-lg">
       <div className="w-3/4 bg-blue-950 border-white border-r-2 p-2 pb-4 rounded-lg rounded-r-none">
-        <div className="flex mb-2 text-[16px] md:text-[20px] justify-between items-center">
+        <div className="flex flex-col md:flex-row mb-2 text-[16px] md:text-[20px] md:justify-between items-start md:items-center">
           <div>{title}:</div>
           <ProgressIndicator />
         </div>

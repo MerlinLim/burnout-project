@@ -48,7 +48,7 @@ const Box = styled.div`
   align-items: center;
   color: white;
   background-color: #112161;
-  z-index: 1000 !important;
+  z-index:100;
 
   @media screen and (max-width: 650px) {
     left:0px;
