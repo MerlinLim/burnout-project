@@ -16,7 +16,7 @@ const QuestionComponent = ({
   const options = ["0", "1", "2", "3", "4", "5", "6"];
 
   return (
-    <div className ="mx-auto max-w-[700px] px-[1rem] ">
+    <div className ="mx-auto max-w-[700px] md:px-[1rem] ">
       <div>
         {question.itemId}
         {". "}
@@ -24,7 +24,7 @@ const QuestionComponent = ({
       </div>
       <RadioGroup
         row={true}
-        className="grid grid-cols-4 md:grid-cols-7 md:grid-rows-1 pt-[1rem] "
+        className="flex md:justify-between mx-auto justify-center pt-[1rem] w-full"
         value={response}
         onChange={(e) => onChange(question.itemId, +e.currentTarget.value)}
       >
